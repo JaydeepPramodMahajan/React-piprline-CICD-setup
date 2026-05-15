@@ -16,3 +16,10 @@ jobs:
 
             - name: "Checking Version"
               run: node --version
+
+             
+            - name: Fetch Full History
+              uses: actions/checkout@v4
+              with:
+                 fetch-depth: 0
+              
