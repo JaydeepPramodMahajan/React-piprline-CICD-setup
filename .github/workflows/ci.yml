@@ -28,3 +28,5 @@ jobs:
               run: npm install
             - name: "After installing the list will be "
               run: ls
+            - name: "Running the bulds"
+              run: npm run build
